@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>CSS Grid</title>
+    </head>
+    <body>
+        <dev style="
+            display: grid;
+            grid-template-columns: 200px 75px;
+            margin-bottom: 10px;
+            ">
+            <dev style="background-color: skyblue;">200px</dev>
+            <dev style="background-color: pink;">75px</dev>
+        </dev>
+        <dev style="
+            display: grid;
+            grid-template-columns: 50px 1fr 75px;
+            margin-bottom: 10px;
+            ">
+            <dev style="background-color: skyblue;">col1</dev>
+            <dev style="background-color: pink;">col2</dev>
+            <dev style="background-color: skyblue;">col3</dev>
+        </dev>
+        <dev style="
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr 1fr;
+            margin-bottom: 10px;
+            column-gap: 20px;
+            row-gap: 10px;
+            ">
+            <dev style="background-color: pink;">col1</dev>
+            <dev style="background-color: pink;">col2</dev>
+            <dev style="background-color: pink;">col3</dev>
+            <dev style="background-color: pink;">col4</dev>
+            <dev style="background-color: pink;">col1</dev>
+            <dev style="background-color: pink;">col2</dev>
+            <dev style="background-color: pink;">col3</dev>
+            <dev style="background-color: pink;">col4</dev>
+        </dev>
+    </body>
+</html>
