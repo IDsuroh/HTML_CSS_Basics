@@ -1,0 +1,112 @@
+.notification   {
+    border-width: 1px;
+    border-color: lightslategray;
+    border-style: solid;
+    border-radius: 8px;
+    max-width: 700px;
+}
+
+.line   {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    line-height: 40px;
+    padding: 5px 15px;
+}
+
+.text   {
+    font-family: Arial;
+}
+
+.number {
+    font-weight: bold;
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 0 16px;
+    border: none;
+    border-radius: 28px;
+}
+
+.cats   {
+    margin-top: 30px;
+    border: none;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.cat    {
+    width: 80px;
+    height: 80px;
+    border-radius: 50px;
+    object-fit: cover;
+    align-self: center;
+    margin-right: 8px;
+}
+
+.info   {
+    flex: 1;
+}
+
+p   {
+    margin: 6px;
+}
+
+.name   {
+    font-weight: bold;
+}
+
+.gray-text1 {
+    color: gray;
+}
+
+.gray-text2 {
+    color: gray;
+    font-size: 22px;
+}
+
+.Follow {
+    background-color: rgb(0, 140, 255);
+    color: white;
+    padding: 16px 26px;
+    align-self: center;
+    border: none;
+    border-radius: 14px;
+    font-weight: bold;
+    font-size: 26px;
+}
+
+.violet {
+    margin-top: 30px;
+    border: none;
+    max-width: 700px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    color: white;
+    background-color: rgb(94, 6, 194);
+    padding: 15px 10px;
+    align-items: center;
+}
+
+.onest    {
+    font-weight: bold;
+    padding-left: 10px;
+}
+
+.twond  {
+    border: none;
+    border-radius: 30px;
+    padding: 10px 22px;
+}
+
+.Download   {
+    border: solid;
+    border-radius: 4px;
+    border-width: 2px;
+    border-color: white;
+    color: white;
+    background-color: rgb(94, 6, 194);
+    padding: 10px 22px;
+}
